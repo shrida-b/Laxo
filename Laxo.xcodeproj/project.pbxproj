@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184485B0253A8EBF008C6BCD /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184485AF253A8EBF008C6BCD /* DrawViewController.swift */; };
+		18E43C5024D0E9CD005B0906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E43C4F24D0E9CD005B0906 /* AppDelegate.swift */; };
+		18E43C5224D0E9CD005B0906 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E43C5124D0E9CD005B0906 /* SceneDelegate.swift */; };
+		18E43C5424D0E9CD005B0906 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E43C5324D0E9CD005B0906 /* ViewController.swift */; };
+		18E43C5724D0E9CD005B0906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E43C5524D0E9CD005B0906 /* Main.storyboard */; };
+		18E43C5A24D0E9CD005B0906 /* Laxo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E43C5824D0E9CD005B0906 /* Laxo.xcdatamodeld */; };
+		18E43C5C24D0E9D3005B0906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E43C5B24D0E9D3005B0906 /* Assets.xcassets */; };
+		18E43C5F24D0E9D3005B0906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E43C5D24D0E9D3005B0906 /* LaunchScreen.storyboard */; };
+		18E43C6A24D0E9D5005B0906 /* LaxoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E43C6924D0E9D5005B0906 /* LaxoTests.swift */; };
+		18E43C7524D0E9D5005B0906 /* LaxoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E43C7424D0E9D5005B0906 /* LaxoUITests.swift */; };
+		18E43C8324D11C8E005B0906 /* InteractScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E43C8224D11C8E005B0906 /* InteractScreenViewController.swift */; };
+		18E43C8524D11D79005B0906 /* TicTacToeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E43C8424D11D79005B0906 /* TicTacToeViewController.swift */; };
+		18E64B1824D34FDB00B257AD /* Emoji1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E64B1724D34FDB00B257AD /* Emoji1ViewController.swift */; };
+		18E64B1A24D3669900B257AD /* Emoji2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E64B1924D3669800B257AD /* Emoji2ViewController.swift */; };
+		4B8E316724D390680027A8FA /* SoundClips in Resources */ = {isa = PBXBuildFile; fileRef = 4B8E316624D390680027A8FA /* SoundClips */; };
+		4B8E316924D3D6840027A8FA /* HotlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E316824D3D6840027A8FA /* HotlineViewController.swift */; };
+		82277E59253805EA003A243F /* sakura hz - chill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82277E58253805EA003A243F /* sakura hz - chill.mp3 */; };
+		8266784C253D209D0086ED80 /* Emoji3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8266784B253D209D0086ED80 /* Emoji3ViewController.swift */; };
+		82BC4D2C24D3E1C30026D3D9 /* Sea Ocean Wave Sound Effect Royalty Free Sound Effects Sound Effects Good Vibes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82BC4D2B24D3E1C30026D3D9 /* Sea Ocean Wave Sound Effect Royalty Free Sound Effects Sound Effects Good Vibes.mp3 */; };
+		82BC4D3024D3F7490026D3D9 /* Rain Sounds 15 seconds soundtrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82BC4D2F24D3F7490026D3D9 /* Rain Sounds 15 seconds soundtrack.mp3 */; };
+		82BC4D3224D3F98E0026D3D9 /* 4 Beautiful Soundtracks Relaxing Piano [10min].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82BC4D3124D3F98E0026D3D9 /* 4 Beautiful Soundtracks Relaxing Piano [10min].mp3 */; };
+		82BC4D3424D3FAC40026D3D9 /* Joan of Arc..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82BC4D3324D3FAC40026D3D9 /* Joan of Arc..mp3 */; };
+		82C808CE24D2DE3F00D279CF /* ListenArticleOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C808CD24D2DE3F00D279CF /* ListenArticleOneViewController.swift */; };
+		82DCD90C24D3BAAD00B71387 /* articleTwoDestressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DCD90B24D3BAAD00B71387 /* articleTwoDestressViewController.swift */; };
+		82DCD90E24D3BABD00B71387 /* articleThreeMeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DCD90D24D3BABD00B71387 /* articleThreeMeditationViewController.swift */; };
+		82F3F58F253941F60027B4DC /* autism music for anxiety.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82F3F58E253941F60027B4DC /* autism music for anxiety.mp3 */; };
+		82F3F591253941FE0027B4DC /* sensory relaxing music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82F3F590253941FD0027B4DC /* sensory relaxing music.mp3 */; };
+		82F3F5932539441D0027B4DC /* still piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82F3F5922539441D0027B4DC /* still piano.mp3 */; };
+		82FB82AB24D152510029C14F /* EnterScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FB82AA24D152510029C14F /* EnterScreenViewController.swift */; };
+		82FB82AD24D152710029C14F /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FB82AC24D152710029C14F /* HomeScreenViewController.swift */; };
+		82FB82AF24D152950029C14F /* ListenScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FB82AE24D152950029C14F /* ListenScreenViewController.swift */; };
+		82FB82B124D152D80029C14F /* LearnScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FB82B024D152D80029C14F /* LearnScreenViewController.swift */; };
+		82FB82B324D152F00029C14F /* MusicScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FB82B224D152F00029C14F /* MusicScreenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E43C6624D0E9D5005B0906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E43C4424D0E9CD005B0906 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E43C4B24D0E9CD005B0906;
+			remoteInfo = Laxo;
+		};
+		18E43C7124D0E9D5005B0906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E43C4424D0E9CD005B0906 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E43C4B24D0E9CD005B0906;
+			remoteInfo = Laxo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184485AF253A8EBF008C6BCD /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		18E43C4C24D0E9CD005B0906 /* Pax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E43C4F24D0E9CD005B0906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E43C5124D0E9CD005B0906 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18E43C5324D0E9CD005B0906 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E43C5624D0E9CD005B0906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E43C5924D0E9CD005B0906 /* Laxo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Laxo.xcdatamodel; sourceTree = "<group>"; };
+		18E43C5B24D0E9D3005B0906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E43C5E24D0E9D3005B0906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E43C6024D0E9D3005B0906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E43C6524D0E9D5005B0906 /* LaxoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaxoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E43C6924D0E9D5005B0906 /* LaxoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaxoTests.swift; sourceTree = "<group>"; };
+		18E43C6B24D0E9D5005B0906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E43C7024D0E9D5005B0906 /* LaxoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaxoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E43C7424D0E9D5005B0906 /* LaxoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaxoUITests.swift; sourceTree = "<group>"; };
+		18E43C7624D0E9D5005B0906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E43C8224D11C8E005B0906 /* InteractScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractScreenViewController.swift; sourceTree = "<group>"; };
+		18E43C8424D11D79005B0906 /* TicTacToeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeViewController.swift; sourceTree = "<group>"; };
+		18E64B1724D34FDB00B257AD /* Emoji1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji1ViewController.swift; sourceTree = "<group>"; };
+		18E64B1924D3669800B257AD /* Emoji2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji2ViewController.swift; sourceTree = "<group>"; };
+		4B8E316624D390680027A8FA /* SoundClips */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SoundClips; sourceTree = "<group>"; };
+		4B8E316824D3D6840027A8FA /* HotlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotlineViewController.swift; sourceTree = "<group>"; };
+		82277E58253805EA003A243F /* sakura hz - chill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sakura hz - chill.mp3"; sourceTree = "<group>"; };
+		8266784B253D209D0086ED80 /* Emoji3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji3ViewController.swift; sourceTree = "<group>"; };
+		82BC4D2B24D3E1C30026D3D9 /* Sea Ocean Wave Sound Effect Royalty Free Sound Effects Sound Effects Good Vibes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sea Ocean Wave Sound Effect Royalty Free Sound Effects Sound Effects Good Vibes.mp3"; sourceTree = "<group>"; };
+		82BC4D2F24D3F7490026D3D9 /* Rain Sounds 15 seconds soundtrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rain Sounds 15 seconds soundtrack.mp3"; sourceTree = "<group>"; };
+		82BC4D3124D3F98E0026D3D9 /* 4 Beautiful Soundtracks Relaxing Piano [10min].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "4 Beautiful Soundtracks Relaxing Piano [10min].mp3"; sourceTree = "<group>"; };
+		82BC4D3324D3FAC40026D3D9 /* Joan of Arc..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Joan of Arc..mp3"; sourceTree = "<group>"; };
+		82C808CD24D2DE3F00D279CF /* ListenArticleOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenArticleOneViewController.swift; sourceTree = "<group>"; };
+		82DCD90B24D3BAAD00B71387 /* articleTwoDestressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = articleTwoDestressViewController.swift; sourceTree = "<group>"; };
+		82DCD90D24D3BABD00B71387 /* articleThreeMeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = articleThreeMeditationViewController.swift; sourceTree = "<group>"; };
+		82F3F58E253941F60027B4DC /* autism music for anxiety.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "autism music for anxiety.mp3"; sourceTree = "<group>"; };
+		82F3F590253941FD0027B4DC /* sensory relaxing music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sensory relaxing music.mp3"; sourceTree = "<group>"; };
+		82F3F5922539441D0027B4DC /* still piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "still piano.mp3"; sourceTree = "<group>"; };
+		82FB82AA24D152510029C14F /* EnterScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterScreenViewController.swift; sourceTree = "<group>"; };
+		82FB82AC24D152710029C14F /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		82FB82AE24D152950029C14F /* ListenScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenScreenViewController.swift; sourceTree = "<group>"; };
+		82FB82B024D152D80029C14F /* LearnScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnScreenViewController.swift; sourceTree = "<group>"; };
+		82FB82B224D152F00029C14F /* MusicScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicScreenViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E43C4924D0E9CD005B0906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E43C6224D0E9D5005B0906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E43C6D24D0E9D5005B0906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E43C4324D0E9CD005B0906 = {
+			isa = PBXGroup;
+			children = (
+				4B8E316624D390680027A8FA /* SoundClips */,
+				18E43C4E24D0E9CD005B0906 /* Laxo */,
+				18E43C6824D0E9D5005B0906 /* LaxoTests */,
+				18E43C7324D0E9D5005B0906 /* LaxoUITests */,
+				18E43C4D24D0E9CD005B0906 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E43C4D24D0E9CD005B0906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E43C4C24D0E9CD005B0906 /* Pax.app */,
+				18E43C6524D0E9D5005B0906 /* LaxoTests.xctest */,
+				18E43C7024D0E9D5005B0906 /* LaxoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E43C4E24D0E9CD005B0906 /* Laxo */ = {
+			isa = PBXGroup;
+			children = (
+				18E43C5524D0E9CD005B0906 /* Main.storyboard */,
+				184485AF253A8EBF008C6BCD /* DrawViewController.swift */,
+				18E43C4F24D0E9CD005B0906 /* AppDelegate.swift */,
+				4B8E316824D3D6840027A8FA /* HotlineViewController.swift */,
+				18E43C5124D0E9CD005B0906 /* SceneDelegate.swift */,
+				18E43C5324D0E9CD005B0906 /* ViewController.swift */,
+				8266784B253D209D0086ED80 /* Emoji3ViewController.swift */,
+				18E64B1924D3669800B257AD /* Emoji2ViewController.swift */,
+				18E64B1724D34FDB00B257AD /* Emoji1ViewController.swift */,
+				82FB82B224D152F00029C14F /* MusicScreenViewController.swift */,
+				82FB82B024D152D80029C14F /* LearnScreenViewController.swift */,
+				82C808CD24D2DE3F00D279CF /* ListenArticleOneViewController.swift */,
+				82DCD90B24D3BAAD00B71387 /* articleTwoDestressViewController.swift */,
+				82DCD90D24D3BABD00B71387 /* articleThreeMeditationViewController.swift */,
+				82FB82AE24D152950029C14F /* ListenScreenViewController.swift */,
+				82FB82AC24D152710029C14F /* HomeScreenViewController.swift */,
+				82FB82AA24D152510029C14F /* EnterScreenViewController.swift */,
+				18E43C8424D11D79005B0906 /* TicTacToeViewController.swift */,
+				18E43C8224D11C8E005B0906 /* InteractScreenViewController.swift */,
+				18E43C5B24D0E9D3005B0906 /* Assets.xcassets */,
+				82277E58253805EA003A243F /* sakura hz - chill.mp3 */,
+				82BC4D3324D3FAC40026D3D9 /* Joan of Arc..mp3 */,
+				82BC4D3124D3F98E0026D3D9 /* 4 Beautiful Soundtracks Relaxing Piano [10min].mp3 */,
+				82BC4D2B24D3E1C30026D3D9 /* Sea Ocean Wave Sound Effect Royalty Free Sound Effects Sound Effects Good Vibes.mp3 */,
+				82F3F58E253941F60027B4DC /* autism music for anxiety.mp3 */,
+				82F3F590253941FD0027B4DC /* sensory relaxing music.mp3 */,
+				82F3F5922539441D0027B4DC /* still piano.mp3 */,
+				82BC4D2F24D3F7490026D3D9 /* Rain Sounds 15 seconds soundtrack.mp3 */,
+				18E43C5D24D0E9D3005B0906 /* LaunchScreen.storyboard */,
+				18E43C6024D0E9D3005B0906 /* Info.plist */,
+				18E43C5824D0E9CD005B0906 /* Laxo.xcdatamodeld */,
+			);
+			path = Laxo;
+			sourceTree = "<group>";
+		};
+		18E43C6824D0E9D5005B0906 /* LaxoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E43C6924D0E9D5005B0906 /* LaxoTests.swift */,
+				18E43C6B24D0E9D5005B0906 /* Info.plist */,
+			);
+			path = LaxoTests;
+			sourceTree = "<group>";
+		};
+		18E43C7324D0E9D5005B0906 /* LaxoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E43C7424D0E9D5005B0906 /* LaxoUITests.swift */,
+				18E43C7624D0E9D5005B0906 /* Info.plist */,
+			);
+			path = LaxoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E43C4B24D0E9CD005B0906 /* Laxo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E43C7924D0E9D5005B0906 /* Build configuration list for PBXNativeTarget "Laxo" */;
+			buildPhases = (
+				18E43C4824D0E9CD005B0906 /* Sources */,
+				18E43C4924D0E9CD005B0906 /* Frameworks */,
+				18E43C4A24D0E9CD005B0906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Laxo;
+			productName = Laxo;
+			productReference = 18E43C4C24D0E9CD005B0906 /* Pax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E43C6424D0E9D5005B0906 /* LaxoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E43C7C24D0E9D5005B0906 /* Build configuration list for PBXNativeTarget "LaxoTests" */;
+			buildPhases = (
+				18E43C6124D0E9D5005B0906 /* Sources */,
+				18E43C6224D0E9D5005B0906 /* Frameworks */,
+				18E43C6324D0E9D5005B0906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E43C6724D0E9D5005B0906 /* PBXTargetDependency */,
+			);
+			name = LaxoTests;
+			productName = LaxoTests;
+			productReference = 18E43C6524D0E9D5005B0906 /* LaxoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E43C6F24D0E9D5005B0906 /* LaxoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E43C7F24D0E9D5005B0906 /* Build configuration list for PBXNativeTarget "LaxoUITests" */;
+			buildPhases = (
+				18E43C6C24D0E9D5005B0906 /* Sources */,
+				18E43C6D24D0E9D5005B0906 /* Frameworks */,
+				18E43C6E24D0E9D5005B0906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E43C7224D0E9D5005B0906 /* PBXTargetDependency */,
+			);
+			name = LaxoUITests;
+			productName = LaxoUITests;
+			productReference = 18E43C7024D0E9D5005B0906 /* LaxoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E43C4424D0E9CD005B0906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Sriya Kantipudi";
+				TargetAttributes = {
+					18E43C4B24D0E9CD005B0906 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					18E43C6424D0E9D5005B0906 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 18E43C4B24D0E9CD005B0906;
+					};
+					18E43C6F24D0E9D5005B0906 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 18E43C4B24D0E9CD005B0906;
+					};
+				};
+			};
+			buildConfigurationList = 18E43C4724D0E9CD005B0906 /* Build configuration list for PBXProject "Laxo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E43C4324D0E9CD005B0906;
+			productRefGroup = 18E43C4D24D0E9CD005B0906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E43C4B24D0E9CD005B0906 /* Laxo */,
+				18E43C6424D0E9D5005B0906 /* LaxoTests */,
+				18E43C6F24D0E9D5005B0906 /* LaxoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E43C4A24D0E9CD005B0906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F3F5932539441D0027B4DC /* still piano.mp3 in Resources */,
+				82277E59253805EA003A243F /* sakura hz - chill.mp3 in Resources */,
+				82BC4D3224D3F98E0026D3D9 /* 4 Beautiful Soundtracks Relaxing Piano [10min].mp3 in Resources */,
+				18E43C5F24D0E9D3005B0906 /* LaunchScreen.storyboard in Resources */,
+				18E43C5C24D0E9D3005B0906 /* Assets.xcassets in Resources */,
+				82BC4D3024D3F7490026D3D9 /* Rain Sounds 15 seconds soundtrack.mp3 in Resources */,
+				82F3F58F253941F60027B4DC /* autism music for anxiety.mp3 in Resources */,
+				82F3F591253941FE0027B4DC /* sensory relaxing music.mp3 in Resources */,
+				82BC4D2C24D3E1C30026D3D9 /* Sea Ocean Wave Sound Effect Royalty Free Sound Effects Sound Effects Good Vibes.mp3 in Resources */,
+				4B8E316724D390680027A8FA /* SoundClips in Resources */,
+				18E43C5724D0E9CD005B0906 /* Main.storyboard in Resources */,
+				82BC4D3424D3FAC40026D3D9 /* Joan of Arc..mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E43C6324D0E9D5005B0906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E43C6E24D0E9D5005B0906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E43C4824D0E9CD005B0906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FB82AB24D152510029C14F /* EnterScreenViewController.swift in Sources */,
+				18E64B1A24D3669900B257AD /* Emoji2ViewController.swift in Sources */,
+				4B8E316924D3D6840027A8FA /* HotlineViewController.swift in Sources */,
+				82FB82B124D152D80029C14F /* LearnScreenViewController.swift in Sources */,
+				82FB82AD24D152710029C14F /* HomeScreenViewController.swift in Sources */,
+				18E43C5424D0E9CD005B0906 /* ViewController.swift in Sources */,
+				82FB82AF24D152950029C14F /* ListenScreenViewController.swift in Sources */,
+				18E64B1824D34FDB00B257AD /* Emoji1ViewController.swift in Sources */,
+				82FB82B324D152F00029C14F /* MusicScreenViewController.swift in Sources */,
+				18E43C8324D11C8E005B0906 /* InteractScreenViewController.swift in Sources */,
+				18E43C5A24D0E9CD005B0906 /* Laxo.xcdatamodeld in Sources */,
+				18E43C8524D11D79005B0906 /* TicTacToeViewController.swift in Sources */,
+				184485B0253A8EBF008C6BCD /* DrawViewController.swift in Sources */,
+				8266784C253D209D0086ED80 /* Emoji3ViewController.swift in Sources */,
+				18E43C5024D0E9CD005B0906 /* AppDelegate.swift in Sources */,
+				82DCD90C24D3BAAD00B71387 /* articleTwoDestressViewController.swift in Sources */,
+				82C808CE24D2DE3F00D279CF /* ListenArticleOneViewController.swift in Sources */,
+				82DCD90E24D3BABD00B71387 /* articleThreeMeditationViewController.swift in Sources */,
+				18E43C5224D0E9CD005B0906 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E43C6124D0E9D5005B0906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E43C6A24D0E9D5005B0906 /* LaxoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E43C6C24D0E9D5005B0906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E43C7524D0E9D5005B0906 /* LaxoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E43C6724D0E9D5005B0906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E43C4B24D0E9CD005B0906 /* Laxo */;
+			targetProxy = 18E43C6624D0E9D5005B0906 /* PBXContainerItemProxy */;
+		};
+		18E43C7224D0E9D5005B0906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E43C4B24D0E9CD005B0906 /* Laxo */;
+			targetProxy = 18E43C7124D0E9D5005B0906 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E43C5524D0E9CD005B0906 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E43C5624D0E9CD005B0906 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E43C5D24D0E9D3005B0906 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E43C5E24D0E9D3005B0906 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E43C7724D0E9D5005B0906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E43C7824D0E9D5005B0906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E43C7A24D0E9D5005B0906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W77P76PVZ2;
+				INFOPLIST_FILE = Laxo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sriya.Laxo;
+				PRODUCT_NAME = Pax;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E43C7B24D0E9D5005B0906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W77P76PVZ2;
+				INFOPLIST_FILE = Laxo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sriya.Laxo;
+				PRODUCT_NAME = Pax;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18E43C7D24D0E9D5005B0906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W77P76PVZ2;
+				INFOPLIST_FILE = LaxoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sriya.LaxoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laxo.app/Laxo";
+			};
+			name = Debug;
+		};
+		18E43C7E24D0E9D5005B0906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W77P76PVZ2;
+				INFOPLIST_FILE = LaxoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sriya.LaxoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laxo.app/Laxo";
+			};
+			name = Release;
+		};
+		18E43C8024D0E9D5005B0906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W77P76PVZ2;
+				INFOPLIST_FILE = LaxoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sriya.LaxoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Laxo;
+			};
+			name = Debug;
+		};
+		18E43C8124D0E9D5005B0906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W77P76PVZ2;
+				INFOPLIST_FILE = LaxoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sriya.LaxoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Laxo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E43C4724D0E9CD005B0906 /* Build configuration list for PBXProject "Laxo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E43C7724D0E9D5005B0906 /* Debug */,
+				18E43C7824D0E9D5005B0906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E43C7924D0E9D5005B0906 /* Build configuration list for PBXNativeTarget "Laxo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E43C7A24D0E9D5005B0906 /* Debug */,
+				18E43C7B24D0E9D5005B0906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E43C7C24D0E9D5005B0906 /* Build configuration list for PBXNativeTarget "LaxoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E43C7D24D0E9D5005B0906 /* Debug */,
+				18E43C7E24D0E9D5005B0906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E43C7F24D0E9D5005B0906 /* Build configuration list for PBXNativeTarget "LaxoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E43C8024D0E9D5005B0906 /* Debug */,
+				18E43C8124D0E9D5005B0906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18E43C5824D0E9CD005B0906 /* Laxo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18E43C5924D0E9CD005B0906 /* Laxo.xcdatamodel */,
+			);
+			currentVersion = 18E43C5924D0E9CD005B0906 /* Laxo.xcdatamodel */;
+			path = Laxo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18E43C4424D0E9CD005B0906 /* Project object */;
+}
